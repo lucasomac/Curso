@@ -4,7 +4,53 @@
     <projectFile>Curso.api/Curso.api.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31aec4b7-5ea5-42f9-befa-532fcac0002d" name="Default Changelist" comment="" />
+    <list default="true" id="31aec4b7-5ea5-42f9-befa-532fcac0002d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Curso.api/models/Usuarios/LoginViewModelInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.api/models/Usuarios/RegistroViewModelInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Curso.api.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Curso.api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Curso.api.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Curso.api.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Curso.api.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Curso.api.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/bin/Debug/net5.0/ref/Curso.api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/Curso.api.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/ref/Curso.api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/staticwebassets/Curso.api.StaticWebAssets.Manifest.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/staticwebassets/Curso.api.StaticWebAssets.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,13 +61,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Curso.api/Controllers/WeatherForecastController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Curso.api/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Curso.api/WeatherForecast.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Curso.api/Properties/launchSettings.json" />
-      <option value="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" />
       <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.gitignore" />
+      <option value="$PROJECT_DIR$/Curso.api/models/Usuarios/LoginViewModelInput.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/models/Usuarios/Registrar.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/models/Usuarios/RegistroViewModelInput.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lh5bYYmuMJGVM1UcwRihxjFXBO" />
@@ -35,7 +86,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Curso.api">
@@ -78,8 +129,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608036607445</updated>
-      <workItem from="1608036679886" duration="1118000" />
+      <workItem from="1608036679886" duration="5673000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1608037995311</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608037995311</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add gitignore">
+      <created>1608042439454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608042439454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,5 +155,12 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gitignore" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

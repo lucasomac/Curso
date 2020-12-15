@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\lomacedo\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\lomacedo\\.nuget\\packages"
-    ]
-  }
-}
