@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "AgefFkqm8Cn4HHEqfkN8r/uKfI2mPkvLQZe6OK3t6B933LdutbWX4jxe5Cvdoqfzynv5tXM8QYeFWveD4ORlsg==",
+  "dgSpecHash": "AHtEB9Zee1nLrnKukiqdwDZstVQYVFhaoQsHO6tCHaDOeUdpap+/RE61hpuC8cnjPxUAqf2lVr3Kqn5U3SxnJQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\lomacedo\\RiderProjects\\Curso\\Curso.api\\Curso.api.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\lomacedo\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.7.1\\microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
     "C:\\Users\\lomacedo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\lomacedo\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\lomacedo\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\5.6.3\\swashbuckle.aspnetcore.annotations.5.6.3.nupkg.sha512",
     "C:\\Users\\lomacedo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\lomacedo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
     "C:\\Users\\lomacedo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",

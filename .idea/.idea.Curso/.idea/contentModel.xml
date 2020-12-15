@@ -13,11 +13,17 @@
           <e p="UsuarioController.cs" t="Include" />
         </e>
         <e p="Curso.api.csproj" t="IncludeRecursive" />
+        <e p="curso.api.xml" t="Include" />
+        <e p="Filters" t="Include">
+          <e p="ValidacaoModelStateCustomizado.cs" t="Include" />
+        </e>
         <e p="models" t="Include">
+          <e p="ErroGenericoViewModel.cs" t="Include" />
           <e p="Usuarios" t="Include">
             <e p="LoginViewModelInput.cs" t="Include" />
             <e p="RegistroViewModelInput.cs" t="Include" />
           </e>
+          <e p="ValidaCampoViewModelOutput.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
