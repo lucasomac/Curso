@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31aec4b7-5ea5-42f9-befa-532fcac0002d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Curso.api/Filters/ValidacaoModelStateCustomizado.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/models/ErroGenericoViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/models/ValidaCampoViewModelOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.api/Controllers/CursoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.api/models/Cursos/CursoViewModelInput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.api/models/Cursos/CursoViewModelOutput.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.api/models/Usuarios/UsuarioViewModelOutput.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/Curso.api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/Curso.api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Curso.api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Curso.api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Curso.api/curso.api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/curso.api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Curso.api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/project.assets.json" afterDir="false" />
@@ -41,9 +43,14 @@
       <option value="$PROJECT_DIR$/Curso.api/models/Usuarios/RegistroViewModelInput.cs" />
       <option value="$PROJECT_DIR$/Curso.api/models/ErroGenericoViewModel.cs" />
       <option value="$PROJECT_DIR$/Curso.api/models/ValidaCampoViewModelOutput.cs" />
-      <option value="$PROJECT_DIR$/Curso.api/Startup.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Filters/ValidacaoModelStateCustomizado.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/appsettings.json" />
+      <option value="$PROJECT_DIR$/Curso.api/models/Cursos/CursoViewModelInput.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/models/Cursos/CursoViewModelOutput.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/models/Usuarios/UsuarioViewModelOutput.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Controllers/CursoController.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Startup.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lh5bYYmuMJGVM1UcwRihxjFXBO" />
@@ -100,7 +107,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608036607445</updated>
-      <workItem from="1608036679886" duration="8885000" />
+      <workItem from="1608036679886" duration="8980000" />
+      <workItem from="1608112575910" duration="5110000" />
+      <workItem from="1608121969143" duration="2652000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608037995311</created>
@@ -123,20 +132,40 @@
       <option name="project" value="LOCAL" />
       <updated>1608042743116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Filters adiciocandos e configurados">
+      <created>1608046294557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608046294557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add gitignore" />
     <MESSAGE value="Swagger adicionado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swagger adicionado" />
+    <MESSAGE value="Filters adiciocandos e configurados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filters adiciocandos e configurados" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

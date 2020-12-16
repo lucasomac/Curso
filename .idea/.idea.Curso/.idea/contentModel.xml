@@ -3,6 +3,7 @@
   <component name="ContentModelStore">
     <e p="C:\Users\lomacedo\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\lomacedo\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Curso.-1850974327.00" t="ExcludeRecursive" />
+    <e p="C:\Users\lomacedo\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Users\lomacedo\RiderProjects\Curso" t="IncludeFlat">
       <e p="Curso.api" t="IncludeRecursive">
         <e p=".gitignore" t="Include" />
@@ -10,6 +11,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="CursoController.cs" t="Include" />
           <e p="UsuarioController.cs" t="Include" />
         </e>
         <e p="Curso.api.csproj" t="IncludeRecursive" />
@@ -18,10 +20,15 @@
           <e p="ValidacaoModelStateCustomizado.cs" t="Include" />
         </e>
         <e p="models" t="Include">
+          <e p="Cursos" t="Include">
+            <e p="CursoViewModelInput.cs" t="Include" />
+            <e p="CursoViewModelOutput.cs" t="Include" />
+          </e>
           <e p="ErroGenericoViewModel.cs" t="Include" />
           <e p="Usuarios" t="Include">
             <e p="LoginViewModelInput.cs" t="Include" />
             <e p="RegistroViewModelInput.cs" t="Include" />
+            <e p="UsuarioViewModelOutput.cs" t="Include" />
           </e>
           <e p="ValidaCampoViewModelOutput.cs" t="Include" />
         </e>
