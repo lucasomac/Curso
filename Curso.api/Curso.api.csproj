@@ -18,4 +18,9 @@
       <Compile Remove="Controllers\WeatherForecastController.cs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Business\Entities" />
+      <Folder Include="Infraestructure" />
+    </ItemGroup>
+
 </Project>
