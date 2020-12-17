@@ -1,7 +1,11 @@
-﻿namespace Curso.api.Business.Repositories
+﻿using System.Collections.Generic;
+
+namespace Curso.api.Business.Repositories
 {
-    public class ICursoRepository
+    public interface ICursoRepository
     {
-        
+        void Adicionar(Entities.Curso curso);
+        void Commit();
+        IList<Entities.Curso> ObterPorUsuario(int codigo);
     }
 }

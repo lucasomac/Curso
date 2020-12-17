@@ -18,5 +18,6 @@ namespace Curso.api.Infraestructure.Data
         }
 
         public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Business.Entities.Curso> Curso { get; set; }
     }
 }

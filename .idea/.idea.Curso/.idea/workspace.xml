@@ -8,31 +8,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31aec4b7-5ea5-42f9-befa-532fcac0002d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Curso.api/Business/Entities/Curso.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Business/Entities/Usuario.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Business/Repositories/ICursoRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Business/Repositories/IUsuarioRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Configurations/DbFactoryDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Configurations/IAuthenticationService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Configurations/JwtServive.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/CursoDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Mappings/CursoMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Mappings/UsuarioMapping.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Repositories/UsuarioRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Repositories/CursoRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Curso/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/Curso.api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Curso.api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/Business/Repositories/ICursoRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Business/Repositories/ICursoRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/Controllers/CursoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Controllers/CursoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/CursoDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Infraestructure/Data/CursoDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Curso.api/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/curso.api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/curso.api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/Curso.api.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Curso.api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Curso.api/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,13 +42,11 @@
       <option value="$PROJECT_DIR$/Curso.api/models/Cursos/CursoViewModelInput.cs" />
       <option value="$PROJECT_DIR$/Curso.api/models/Cursos/CursoViewModelOutput.cs" />
       <option value="$PROJECT_DIR$/Curso.api/models/Usuarios/UsuarioViewModelOutput.cs" />
-      <option value="$PROJECT_DIR$/Curso.api/Controllers/CursoController.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Business/Entities/Usuario.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Business/Entities/Curso.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Infraestructure/Data/CursosDbContext.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Mappings/UsuarioMapping.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Mappings/CursoMapping.cs" />
-      <option value="$PROJECT_DIR$/Curso.api/Infraestructure/Data/CursoDbContext.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Configurations/DbFactoryDbContext.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Curso.api.csproj" />
       <option value="$PROJECT_DIR$/Curso.api/appsettings.json" />
@@ -77,6 +57,9 @@
       <option value="$PROJECT_DIR$/Curso.api/Business/Repositories/IUsuarioRepository.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Controllers/UsuarioController.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Business/Repositories/ICursoRepository.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Infraestructure/Data/CursoDbContext.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Controllers/CursoController.cs" />
+      <option value="$PROJECT_DIR$/Curso.api/Infraestructure/Data/Repositories/CursoRepository.cs" />
       <option value="$PROJECT_DIR$/Curso.api/Startup.cs" />
     </changedPaths>
   </component>
@@ -140,7 +123,7 @@
       <workItem from="1608121969143" duration="3590000" />
       <workItem from="1608199348681" duration="4501000" />
       <workItem from="1608204151030" duration="605000" />
-      <workItem from="1608204780420" duration="7447000" />
+      <workItem from="1608204780420" duration="10065000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1608037995311</created>
@@ -184,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608125640262</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dependencies do Usuairo refatoradas">
+      <created>1608212348117</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608212348117</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +202,8 @@
     <MESSAGE value="Filters adiciocandos e configurados" />
     <MESSAGE value="Incluida a autorização no swagger" />
     <MESSAGE value="Inclusão de pastas da arquitetura" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inclusão de pastas da arquitetura" />
+    <MESSAGE value="Dependencies do Usuairo refatoradas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dependencies do Usuairo refatoradas" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

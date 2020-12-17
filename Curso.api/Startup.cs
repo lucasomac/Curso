@@ -93,6 +93,7 @@ namespace Curso.api
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<ICursoRepository, CursoRepository>();
             services.AddScoped<IAuthenticationService, JwtServive>();
         }
 

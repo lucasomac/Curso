@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
+using Curso.api.Business.Repositories;
 using Curso.api.models.Cursos;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -13,6 +15,13 @@ namespace Curso.api.Controllers
     [Authorize]
     public class CursoController : ControllerBase
     {
+        private readonly ICursoRepository _cursoRepository;
+
+        public CursoController(ICursoRepository cursoRepository)
+        {
+            _cursoRepository = cursoRepository;
+        }
+
         /// <summary>
         /// Este serviço permite cadastrar curso para o usuário autenticado.
         /// </summary>
@@ -23,7 +32,13 @@ namespace Curso.api.Controllers
         [Route("")]
         public async Task<IActionResult> Post(CursoViewModelInput cursoViewModelInput)
         {
+            Business.Entities.Curso curso = new Business.Entities.Curso();
+            curso.Nome = cursoViewModelInput.Nome;
+            curso.Descricao = cursoViewModelInput.Descricao;
             var codidoUsuario = int.Parse((User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier))?.Value!);
+            curso.CodigoUsuario = codidoUsuario;
+            _cursoRepository.Adicionar(curso);
+            _cursoRepository.Commit();
             return Created("", cursoViewModelInput);
         }
 
@@ -37,14 +52,14 @@ namespace Curso.api.Controllers
         [Route("")]
         public async Task<IActionResult> Get()
         {
-            var cursos = new List<CursoViewModelOutput>();
-            // var codidoUsuario = int.Parse((User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier))?.Value);
-            cursos.Add(new CursoViewModelOutput()
+            var codidoUsuario = int.Parse((User.FindFirst(c => c.Type == ClaimTypes.NameIdentifier))?.Value);
+            var cursos = _cursoRepository.ObterPorUsuario(codidoUsuario).Select(s => new CursoViewModelOutput()
             {
-                Login = "1",
-                Descricao = "Teste",
-                Nome = "Teste"
+                Nome = s.Nome,
+                Descricao = s.Descricao,
+                Login = s.Usuario.Login
             });
+
             return Ok(cursos);
         }
     }

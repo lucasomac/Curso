@@ -42,6 +42,7 @@
               <e p="UsuarioMapping.cs" t="Include" />
             </e>
             <e p="Repositories" t="Include">
+              <e p="CursoRepository.cs" t="Include" />
               <e p="UsuarioRepository.cs" t="Include" />
             </e>
           </e>
