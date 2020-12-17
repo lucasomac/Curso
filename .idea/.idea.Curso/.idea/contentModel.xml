@@ -11,7 +11,19 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Business" t="Include">
-          <e p="Entities" t="Include" />
+          <e p="Entities" t="Include">
+            <e p="Curso.cs" t="Include" />
+            <e p="Usuario.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="ICursoRepository.cs" t="Include" />
+            <e p="IUsuarioRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Configurations" t="Include">
+          <e p="DbFactoryDbContext.cs" t="Include" />
+          <e p="IAuthenticationService.cs" t="Include" />
+          <e p="JwtServive.cs" t="Include" />
         </e>
         <e p="Controllers" t="Include">
           <e p="CursoController.cs" t="Include" />
@@ -22,7 +34,23 @@
         <e p="Filters" t="Include">
           <e p="ValidacaoModelStateCustomizado.cs" t="Include" />
         </e>
-        <e p="infraestructure" t="Include" />
+        <e p="infraestructure" t="Include">
+          <e p="Data" t="Include">
+            <e p="CursoDbContext.cs" t="Include" />
+            <e p="MAppings" t="Include">
+              <e p="CursoMapping.cs" t="Include" />
+              <e p="UsuarioMapping.cs" t="Include" />
+            </e>
+            <e p="Repositories" t="Include">
+              <e p="UsuarioRepository.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20201217120828_Base-Inicial.cs" t="Include" />
+          <e p="20201217120828_Base-Inicial.Designer.cs" t="Include" />
+          <e p="CursoDbContextModelSnapshot.cs" t="Include" />
+        </e>
         <e p="models" t="Include">
           <e p="Cursos" t="Include">
             <e p="CursoViewModelInput.cs" t="Include" />

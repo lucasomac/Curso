@@ -6,11 +6,17 @@ using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Curso.api.Business.Repositories;
+using Curso.api.Configurations;
+using Curso.api.Controllers;
+using Curso.api.Infraestructure.Data;
+using Curso.api.Infraestructure.Data.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -82,6 +88,12 @@ namespace Curso.api
                     ValidateAudience = false
                 };
             });
+            services.AddDbContext<CursoDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IAuthenticationService, JwtServive>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
